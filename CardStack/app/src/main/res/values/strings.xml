@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CardStack</string>
+    <string name="relative">Relative</string>
+    <string name="linear">Linear</string>
+    <string name="frame">Frame</string>
+    <string name="part2">Part 2</string>
 </resources>
