@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/topleftA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="40dp"
+        android:paddingStart="7dp"
+        android:textColor="@android:color/holo_red_light" />
+    <ImageView
+        android:id="@+id/topleftIV"
+        android:layout_below="@+id/topleftA"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingStart="1dp"
+        android:src="@drawable/ic_favorite_black_24dp"
+        />
+    <ImageView
+        android:id="@+id/mid"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="130dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_favorite_black_24dp"
+        android:scaleType="fitXY"
+        />
+    <ImageView
+        android:id="@+id/botrightIV"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/botrightA"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="end"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_favorite_black_24dp"
+        android:rotation="180"/>
+    <TextView
+        android:id="@+id/botrightA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="40dp"
+        android:paddingStart="7dp"
+        android:rotation="180"
+        android:textColor="@android:color/holo_red_light"
+        />
 </RelativeLayout>
