@@ -2,6 +2,7 @@ package com.example.kevin.cardstack;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import java.util.Stack;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,4 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    Stack<Card> CardStack = new Stack<Card>();
+
 }
+
